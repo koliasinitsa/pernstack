@@ -6,7 +6,7 @@ const ListTodo = () => {
 
     const deleteTodo = async id => {
         try {
-            const deleteTodo = await fetch(`http://localhost:5000/todo/${id}`, {
+            const deleteTodo = await fetch(`http://localhost:5000/api/todo/${id}`, {
                 method: "DELETE"
             });
 
